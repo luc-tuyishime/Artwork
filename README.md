@@ -6,7 +6,7 @@ A frontend App that display beautiful Arts.
 
 - Understand the requirements
 
-* Gather and analyze the project requirements, features, users interfaces and functionalities
+  - Gather and analyze the project requirements, features, users interfaces and functionalities
 
 ## Tools Used
 
