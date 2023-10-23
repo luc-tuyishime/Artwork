@@ -4,9 +4,58 @@ A frontend App that display beautiful Arts.
 
 ## Strategies
 
+- Project Setup and Environment configuration
+
+  - Create a new project
+  - Initialize a version control system, Git.
+  - SetUp the preferred code editor
+  - Install node and npm if not already installed
+  - Initialize a new React project
+
 - Understand the requirements
 
-  - Gather and analyze the project requirements, features, users interfaces and functionalities
+  - Gather and analyze the project requirements, including features, users interfaces and functionalities
+
+- Component Architecture Design
+
+  - Plan the component structure.
+  - Break down the UI into reusable components.
+
+- Component Implementation:
+
+  - Create React components based on the component architecture
+  - write JSX to define the component's structure and appearance
+  - Uses Styled Component for styling
+
+- State Management
+
+  - Implement global state management using Redux-toolkit
+
+- Routing
+
+  - Implement client side routing using React router Dom
+
+- Testing
+
+  - Write unit tests for components
+  - tested the app store using Jest
+
+- Optimization
+
+  - Implement code splitting and lazy loading to improve initial load times.
+  - Optimize performance by minimizing re-renders, using React.memo, and memoization techniques.
+
+- Error handling and Logging
+
+  - Implement error handling and logging mechanisms
+  - Handle both client and server-side errors.
+
+- Deployment
+
+  - Choose a hosting platform to deploy the Frontend Application
+
+- Monitoring and Analytics
+  - Setup up tool like Google Analytics to monitor application usage and performance
 
 ## Tools Used
 
@@ -37,13 +86,13 @@ To run the app, you will need to install _NodeJS_ on your Operating System if yo
 After run
 
 ```
-yarn
+npm install
 ```
 
 ## Run the server
 
 ```
-> yarn start
+> npm start
 ```
 
 ## Run the test

@@ -4,7 +4,6 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 const ArtApiKey = process.env.REACT_APP_ART_API_KEY
 const BaseUrl = process.env.REACT_APP_BASE_URL
 
-// @ts-ignore
 export const ArtApi = createApi({
   reducerPath: 'ArtApi',
   baseQuery: fetchBaseQuery({ baseUrl: BaseUrl }),
