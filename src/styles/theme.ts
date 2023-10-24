@@ -3,7 +3,7 @@ export const theme = {
     Razzmatazz: '#E10856',
     White: '#fff',
     bgColorGradient: '#23293E, #1D1D1D',
-    TextColor: '#C4C4C4',
+    TextColor: '#fff',
     TextTitleColor: '#0FEFFD',
     footerBgColor: '#262626',
     FooterTextColor: '#636366',
