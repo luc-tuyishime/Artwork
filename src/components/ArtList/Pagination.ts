@@ -13,7 +13,7 @@ export const PaginationStyle = styled(Pagination)`
   :where(.css-dev-only-do-not-override-1km3mtt).ant-pagination .ant-pagination-item a {
     display: block;
     padding: 0 6px;
-    color: rgb(245 242 242 / 88%) !important;
+    color: #fff !important;
     transition: none;
   }
   ,
