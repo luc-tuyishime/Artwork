@@ -1,11 +1,8 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "baseUrl": "src",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -24,9 +21,7 @@
     "transform": {
       "^.+\\.jsx?$": "babel-jest", // Adding this line solved the issue
       "^.+\\.tsx?$": "ts-jest"
-    },
+    }
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

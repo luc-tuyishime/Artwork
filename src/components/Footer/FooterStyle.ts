@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { device } from '../../styles/BreakPoints'
+import { device } from 'styles/BreakPoints'
 
 export const FooterStyle = styled.footer`
   font-family: 'Roboto';

@@ -4,11 +4,11 @@ import { Route, Routes } from 'react-router-dom'
 import { NavBar, Footer } from './'
 import 'react-loading-skeleton/dist/skeleton.css'
 import 'antd/dist/reset.css'
-import Global from '../styles/global'
-import { theme } from '../styles/theme'
+import Global from 'styles/global'
+import { theme } from 'styles/theme'
 
-const Arts = lazy(() => import('../components/Arts/Arts'))
-const ArtInformation = lazy(() => import('../components/ArtInformation/ArtInformation'))
+const Arts = lazy(() => import('components/Arts/Arts'))
+const ArtInformation = lazy(() => import('components/ArtInformation/ArtInformation'))
 
 function App() {
   return (

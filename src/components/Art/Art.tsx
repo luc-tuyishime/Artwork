@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { TextLongTitle, TextTitle } from '../Arts/Text'
-import { IMG } from '../Arts/Logo'
-import { Card } from '../Arts/Card'
-import { type } from 'os'
+import { TextLongTitle, TextTitle } from 'components/Arts/Text'
+import { IMG } from 'components/Arts/Logo'
+import { Card } from 'components/Arts/Card'
 
 interface LoadableProps {
   art: any

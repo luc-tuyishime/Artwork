@@ -1,8 +1,8 @@
 import React, { FC } from 'react'
 import { FooterStyle } from './FooterStyle'
 import { useSelector } from 'react-redux'
-import { RootState } from '../../app/store'
-import { useGetAndSearchArtsQuery } from '../../services/ArtAPI'
+import { RootState } from 'app/store'
+import { useGetAndSearchArtsQuery } from 'services/ArtAPI'
 
 const Footer: FC = () => {
   const { searchQuery } = useSelector((state: RootState) => state.Art)

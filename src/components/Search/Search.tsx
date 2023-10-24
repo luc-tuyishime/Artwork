@@ -1,8 +1,8 @@
 import React, { ChangeEvent, FC, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { InputContainer, InputNav, InputNavWeb } from './Input'
-import useWindowDimensions from '../../helper/useWindowDimention'
-import { searchArts } from '../../features/Art'
+import useWindowDimensions from 'helper/useWindowDimention'
+import { searchArts } from 'features/Art'
 import Button from '../common/Button'
 import { ButtonContainer } from '../NavBar/Button'
 

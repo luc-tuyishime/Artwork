@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { device } from '../../styles/BreakPoints'
+import { device } from 'styles/BreakPoints'
 
 export const InputNavWeb = styled.input`
   font-family: 'Roboto';

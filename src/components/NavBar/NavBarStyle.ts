@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { device } from '../../styles/BreakPoints'
+import { device } from 'styles/BreakPoints'
 
 export const NavPadding = styled.div`
   padding-top: ${(props) => props.theme.pixelsSize.VerySmallSize};

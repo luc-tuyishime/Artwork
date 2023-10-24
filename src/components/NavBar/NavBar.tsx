@@ -1,13 +1,13 @@
-import React, { FC, useEffect } from 'react'
+import React, { FC } from 'react'
 import { Col, Row } from 'antd'
 import { Link } from 'react-router-dom'
-import useWindowDimensions from '../../helper/useWindowDimention'
+import useWindowDimensions from 'helper/useWindowDimention'
 import { NavBorder, NavPadding } from './NavBarStyle'
 import { SearchButtonContainer } from './Button'
 import SearchComponent from '../Search/Search'
 import { LogoStyle } from './Logo'
 
-const Logo = require('../../assets/Logo.png')
+import Logo from '../../assets/Logo.png'
 
 const NavBar: FC = () => {
   const { width } = useWindowDimensions()

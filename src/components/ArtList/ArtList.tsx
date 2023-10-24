@@ -4,7 +4,7 @@ import Art from '../Art/Art'
 import { BackHomeLink, NoDataFoundText } from '../Arts/Text'
 import { Link } from 'react-router-dom'
 import { PaginationContainer, PaginationStyle } from './Pagination'
-import useWindowDimensions from '../../helper/useWindowDimention'
+import useWindowDimensions from 'helper/useWindowDimention'
 
 export interface LoadableProps {
   arts: any[]
