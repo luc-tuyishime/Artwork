@@ -102,5 +102,5 @@ npm install
 ## Run the test
 
 ```
-> yarn test
+> npm test
 ```
