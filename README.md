@@ -69,10 +69,10 @@ A frontend App that display beautiful Arts.
 Javascript - typescript
 ```
 
-### Library
+### Libraries
 
 ```
-React
+React - Styled component
 ```
 
 ### Style Guide
